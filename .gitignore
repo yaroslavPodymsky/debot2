@@ -6,6 +6,15 @@
 # Node artifact files
 node_modules/
 dist/
+build/
+bin/
+build/
+ton-packages/
+.env
+.env.local
+.env.devnet
+.env.mainnet
+
 
 # Compiled Java class files
 *.class
