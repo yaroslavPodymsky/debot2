@@ -1,4 +1,4 @@
-"pragma ton-solidity >=0.43.0;
+pragma ton-solidity >=0.43.0;
 pragma AbiHeader expire;
 pragma AbiHeader time;
 pragma AbiHeader pubkey;
@@ -112,4 +112,4 @@ contract TDA is Debot {
     function getRequiredInterfaces() public view override returns (uint256[] interfaces) {
         return [ Terminal.ID, Menu.ID ];
     }
-}"
+}
